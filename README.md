@@ -11,6 +11,13 @@ HM3/
 │   ├──ROMFS\px4fmu_common\init.d-posix\airframes/      #
 │   │   ├──4100_gz_a_100/                               # drone parameters file
 │   │   └──CMakeLists.txt/                              # updated CMakeLists
+│   ├──Tools\simulation\gz\models\a_100                 #
+│   │   ├──LICENSE/                                     # 
+│   │   ├──materials/                                   # 
+│   │   ├──meshes/                                      # 
+│   │   ├──model.config/                                #
+│   │   ├──model.sdf/                                   # drone structure file
+│   │   └──thumbnails/                                  # 
 │   └──src\modules\uxrce_dds_client/ 
 │       └──dds_topics.yaml/                             # modified file, necessary for 1.b
 └── aerial_robotics/                                    # 
