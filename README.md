@@ -28,7 +28,7 @@ HM3/
 ---
      	
      	
-# 🦾 HM2 Setup & Usage Guide
+# 🦾 HM3 Setup & Usage Guide
 
 To ensure the correct functioning of the assignment, the following packages must be installed and properly integrated into the ROS 2 workspace:
 
