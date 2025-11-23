@@ -43,7 +43,6 @@ px4_msgs
 
 PX4-Autopilot
 
-Below are the recommended installation steps for a standard Linux environment.
 ---
 
 ## 🚀 0. Install All Necessary Libraries
@@ -53,7 +52,7 @@ git clone https://github.com/PX4/PX4-Autopilot
 git clone https://github.com/PX4/px4_msgs
 ```
 ---
-## 🚁 1a. Custom Drone
+## 🚁 1a Custom Drone
 
 We developed a new drone model using the x500 platform as our reference. Our version (a_100) provides a schematic representation of a drone’s structural layout: it consists of a pair of intersecting bars connected to the motors and to a central body. To initiate the flight simulation with the a_100 drone, the following commands must be executed in two separate terminals: one opened in ros2_ws-/src/PX4-Autopilot, and the other outside the workspace, which is required to launch the ground control system.
 
